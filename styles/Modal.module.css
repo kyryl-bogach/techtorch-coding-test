@@ -1,0 +1,29 @@
+.modal {
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+}
+
+.content {
+    padding: 1rem;
+}
+
+.actions {
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: flex-end;
+}
+
+.cancelButton {
+    background-color: white;
+    color: #5339c4;
+    outline-color: #5339c4;
+    border: 1px solid #5339c4;
+}
