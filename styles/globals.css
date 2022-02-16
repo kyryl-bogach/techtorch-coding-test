@@ -14,3 +14,36 @@ a {
 * {
     box-sizing: border-box;
 }
+
+button {
+    background-color: #5339c4;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+
+img {
+    border-radius: 1rem;
+}
+
+select {
+    border-radius: 0.3rem;
+    padding: 0.4rem 2rem 0.4rem 0;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+h3 {
+    margin: 0;
+}
+
+input {
+    border: 1px solid grey;
+    width: 100%;
+    height: 1.6rem;
+}
