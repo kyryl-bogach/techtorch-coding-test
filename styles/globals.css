@@ -15,6 +15,11 @@ a {
     box-sizing: border-box;
 }
 
+/* TODO:
+    Css reset usage might be worth it
+    Use variable/constants for colors, sizes... etc
+*/
+
 button {
     background-color: #5339c4;
     color: white;

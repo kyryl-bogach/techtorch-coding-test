@@ -1,0 +1,58 @@
+.container {
+    background-color: #f5f7f9;
+}
+
+.main {
+    min-height: 100vh;
+    padding: 4rem 2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.member {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.userDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.role {
+    display: flex;
+    gap: 1rem;
+}
+
+.list {
+    margin-top: 2rem;
+    background-color: white;
+    border-radius: 1rem;
+    list-style-type: none;
+    width: 100%;
+    padding: 0;
+}
+
+.list > li {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 9rem 2rem 2rem;
+}
+
+.list > li:first-child {
+    padding: 0.5rem 9rem 0.5rem 2rem;
+}
+
+.list > li:not(:last-child) {
+    border-bottom: 1px solid black;
+}
